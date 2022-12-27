@@ -1,0 +1,38 @@
+body{
+    font-size: 6rem;
+    line-height: 1.6rem ;
+    padding: 20rem 20rem;
+}
+
+input{
+    -webkit-appearance: none;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    border-radius: 25px;
+    background-color:#a1a1d1 ;
+    transition: background .3s;
+    outline: none;
+    cursor: pointer;
+}
+
+input::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-25%,-50%);
+    border-radius: 50%;
+    height: 1.45rem;
+    width: 1.45rem;
+    background-color:#ffffff ;
+    transition: left .4s;
+}
+
+input:checked{
+    background-color:#7961cf ;
+
+}
+input:checked::after{
+    left: 70%;
+}
