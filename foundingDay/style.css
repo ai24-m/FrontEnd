@@ -1,0 +1,120 @@
+body
+{
+    overflow: hidden;
+    background-color: #fdfbf0;
+    width: 100vw;
+    height: 100vh;
+
+}
+*{
+    font-family:'harir';
+
+}
+
+.navBar{
+    display: flex;
+    background-color: #f3ebd9;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0%;
+    padding: 1rem;
+    height: 12%;
+
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    width: 51%;
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    display: inline;
+    float: left;
+    font-size: 1.5vw;
+
+}
+
+li a {
+    display: block;
+    color: rgb(107 79 71);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: rgb(202 173 164);
+    font-size: 1.1em;
+}
+
+.left{
+    background-image: url(./2.webp);
+    height: 100%;
+    width: 11.5vw;
+    opacity: 0.4;
+    background-size: 99%;
+    position: absolute;
+
+}
+span{
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    width: 25vw;
+    height: 28vw;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+
+}
+
+.title{
+    font-size: 6vw;
+    text-align: start;
+}
+button{
+
+    background-color: rgb(133, 107, 100);
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 0.5vw 2.5vw;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 1.3vw;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+
+}
+p{
+    font-size: 1.37vw;
+    direction: rtl;
+    margin: 10px;
+}
+.right{
+    width: 40vw;
+    height: 85%;
+    position: absolute;
+    right: 0;
+}
+.imag2{
+
+    position: absolute;
+    z-index: -1;
+    left: -7%;
+    width: 100%;
+    opacity: .3;
+    top: 10%;
+}
+.imag1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
